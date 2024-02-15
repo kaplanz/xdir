@@ -1,8 +1,16 @@
 [package]
 name = "xdir"
 version = "0.1.0"
+authors = ["Zakhary Kaplan <me@zakhary.dev>"]
 edition = "2021"
+description = """
+Platform-agnistic standard directory locations
+"""
+documentation = "https://docs.rs/xdir"
+repository = "https://github.com/kaplanz/xdir"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+home = "0.5.9"
